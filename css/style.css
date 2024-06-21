@@ -39,6 +39,38 @@ header img {
     color: #b2902c;
 }
 
+.final {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 12px;
+    margin: 8px;
+    background-color: aqua;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
+}
+
+
+
+.final .c1 {
+    width: 15%;
+}
+
+.final .c2 {
+    width: 15%;
+}
+
+.final .c3 {
+    width: 15%;
+}
+
+.final .c4 {
+    width: 15%;
+}
+
+
 /* 
 .color1 {color: #120907;}
 .color2 {color: #351f07;}
