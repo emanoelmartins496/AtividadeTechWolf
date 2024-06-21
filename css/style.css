@@ -8,8 +8,8 @@
 
 body {
     background-color: #b2902c;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
 }
 
 header {
