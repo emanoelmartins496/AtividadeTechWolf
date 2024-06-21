@@ -65,6 +65,7 @@ header img {
     color: #b2902c;
 }
 
+<<<<<<< HEAD
 .textos {
     text-align: center;
     justify-content: space-around;
@@ -73,6 +74,8 @@ header img {
     border: 5px solid #120907 ;
 }
 
+=======
+>>>>>>> 7773fc4b6889dce2add76e58e17275c8a77a1947
 .secao {
     border: 5px solid #120907;
     border-radius: 24px;
@@ -304,6 +307,7 @@ a:hover {
     color: #b2902c;
 }
 
+<<<<<<< HEAD
 .imagens {
     display: flex;
     flex-direction: row;
@@ -314,6 +318,8 @@ a:hover {
     margin-bottom: 16px;
 }
 
+=======
+>>>>>>> 7773fc4b6889dce2add76e58e17275c8a77a1947
 @media (max-width: 768px) {
     header {
         background-color: #120907;
@@ -325,6 +331,7 @@ a:hover {
         flex-direction: column;
     }
 
+<<<<<<< HEAD
     .arquivo2 {
         font-size: 0.8rem;
     }
@@ -341,6 +348,8 @@ a:hover {
         margin-right: 10px;
     }
 
+=======
+>>>>>>> 7773fc4b6889dce2add76e58e17275c8a77a1947
     header img {
         width: 10vw;
         height: 8vh;
@@ -394,9 +403,16 @@ a:hover {
 
     .detalhes {
         display: flex;
+<<<<<<< HEAD
         flex-direction: row;
         justify-content: space-between;
         padding: 12px;
+=======
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        padding-top: 12px;
+>>>>>>> 7773fc4b6889dce2add76e58e17275c8a77a1947
         background-color: #120907;
     }
 
@@ -409,6 +425,10 @@ a:hover {
         display: none;
     }
 
+<<<<<<< HEAD
+=======
+.sobre_nos,
+>>>>>>> 7773fc4b6889dce2add76e58e17275c8a77a1947
 .info {
     margin: 30vh 10vw;
     text-align: justify;
