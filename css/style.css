@@ -370,7 +370,7 @@ a:hover {
         border: 5px solid #120907;
         border-radius: 24px;
         padding: 5vh 5vw;
-        margin: 4vh 10vw;
+        margin: 4vh 4vw;
         text-align: justify;
     }
 
@@ -413,9 +413,10 @@ a:hover {
     margin: 30vh 10vw;
     text-align: justify;
     margin-bottom: 6vh;
+     margin-top: 8vh;
 }
-.info {
-    margin-top: 10vh;
+.sobre_nos {
+   margin-top: 30vh;
 }
 
 .sobre_nos .info h2,
