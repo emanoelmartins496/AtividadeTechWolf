@@ -10,6 +10,7 @@ body {
     background-color: #b2902c;
     width: auto;
     height: auto;
+    font-family: "Arial", sans-serif;
 }
 
 header {
@@ -30,7 +31,7 @@ header img {
     height: 20vh;
 }
 
-.main{
+.main {
     margin-top: 20vh;
     padding: 20px;
 }
@@ -58,7 +59,7 @@ header img {
 .secao {
     border: 5px solid #120907 ;
     border-radius: 24px;
-    padding: 10vw 10vh;
+    padding: 15vh 10vw;
     margin: 10vh 20vw;
     text-align: justify;
 }
@@ -155,12 +156,41 @@ header img {
     font-size: 1.2rem;
 }
 
+.sobre_nos, .info {
+    margin: 25vh 10vw;
+    text-align: justify;
+    margin-bottom: 10vh;
+}
+.info {
+    margin-top: 10vh;
+}
+
+.sobre_nos .info h2, p {
+    padding-top: 16px;
+    font-size: 1.4rem;
+}
+
+.sobre_nos, .info, h2{
+    font-size: 2rem;
+}
+
+.image_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_box img {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+}
+
 
 .final {
     display: flex;
     flex-direction: row;
     padding: 12px;
-    background-color: black;
+    background-color: #120907;
     font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
@@ -205,15 +235,12 @@ header img {
     justify-content: space-between;
     padding: 16px;
     padding-top: 50px;
-    background-color: black;
-    
-    
+    background-color: #120907;
 }
 
 .info {
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
 }
 
 .detalhes img {
@@ -228,6 +255,7 @@ header img {
 
 .copy {
     color: #ffffff;
+    font-size: 1rem;
 }
 
 .stripe_green {
@@ -238,6 +266,15 @@ header img {
 .stripe_yellow {
     padding-top: 3px;
     background-color: #b2902c;
+}
+
+.c1, .c2, .c3, .c4, a {
+    text-decoration: none;
+    color: white;
+}
+
+.c1, .c2, .c3, .c4, a:hover {
+    color: #b2902c;
 }
 
 /* 
