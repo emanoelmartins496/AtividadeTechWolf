@@ -42,13 +42,11 @@ header img {
 .final {
     display: flex;
     flex-direction: row;
-    width: 100%;
     padding: 12px;
-    margin: 8px;
     background-color: aqua;
     font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
@@ -56,6 +54,7 @@ header img {
 
 .final .c1 {
     width: 15%;
+
 }
 
 .final .c2 {
@@ -69,6 +68,8 @@ header img {
 .final .c4 {
     width: 15%;
 }
+
+
 
 
 /* 
