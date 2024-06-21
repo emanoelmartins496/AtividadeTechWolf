@@ -15,14 +15,24 @@ body {
 header {
     background-color: #120907;
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 20vh;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
+
 
 header img {
     width: 10vw;
     height: 20vh;
+}
+
+.main{
+    margin-top: 20vh;
+    padding: 20px;
 }
 
 .titulo {
@@ -64,6 +74,83 @@ header img {
     padding-bottom: 8px;
 }
 
+.formulario {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.formulario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #120907;
+}
+
+.formulario label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #6d5313; 
+}
+
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario input[type=tel],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario textarea {
+    height: 120px;
+}
+
+.formulario button[type=submit],
+.formulario button[type=reset],
+.formulario button[type=button] {
+    background-color: #351f07;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.formulario button[type=reset] {
+    background-color: #351f07;
+}
+
+.formulario button[type=button] {
+    background-color: #351f07;
+}
+
+.formulario small {
+    color: #888;
+}
+
+.formulario input[type=file] {
+    color: #351f07;
+}
+
+.linha_colorida1 {
+    padding-top: 3px;
+    background-color: #b2902c;
+}
+
+.linha_colorida {
+    padding-top: 3px;
+    background-color: #120907;
+}
+
+
 .secao p {
     font-size: 1.2rem;
 }
@@ -78,11 +165,13 @@ header img {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
     line-height: 30px;
-
     
 }
 
-
+.c1, .c2, .c3, .c4, a {
+    text-decoration: none;
+    color: white;
+}
 
 .final .c1 {
     display: flex;
